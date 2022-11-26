@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #F5F5F5;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+/* nav */
+
+.nav {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 34px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 32px;
+    width: 45.58px;
+}
+
+.ellipse_one {
+    position: relative;
+    width: 30.39px;
+    height: 32px;
+    background: #316099;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.ellipse_two {
+    position: relative;
+    width: 28.39px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 2px solid #316099;
+    border-radius: 100%;
+    z-index: 2;
+    top: -32px;
+    left: 15.19px;
+}
+
+/* main_screen */
+
+.main_screen {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_screen_illustration {
+    width: 648.69px;
+    margin-top: 76.84px;
+    margin-bottom: 60.12px;
+}
+
+.offer {
+    margin-top: 107px;
+    margin-bottom: 190px;
+}
+
+.offer_h1 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    color: #1F3F68;
+
+}
+
+.offer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    max-width: 425px;
+    margin-top: 32px;
+    margin-bottom: 71px;
+}
+
+.offer_btn {
+    width: 220px;
+    height: 56px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.offer_btn a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+main {
+    background: #F5F5F5;
+    padding-bottom: 107px;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.we_do {
+    padding-top: 46px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66.08px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 494.79px;
+    width: 430px;
+}
+
+.card_content {
+    max-width: 352.28px;
+    margin-top: 52.96px;
+    min-height: 226.77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 15.46px;
+}
+
+.card_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.card a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+.project {
+    padding-top: 34.87px;
+}
+
+.container_project_text {
+    display: flex;
+    justify-content: center;
+}
+
+.project_text {
+    margin-top: 32.83px;
+    margin-bottom: 65.65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    max-width: 898.03px;
+}
+
+.container_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    border-radius: 10px;
+}
+
+.block_one {
+    width: 100%;
+    height: 492.4px;
+    margin-bottom: 32.83px;
+    background-image: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url(img/home.png);
+}
+
+.block_one p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 65.65px;
+    padding-right: 76.63px;
+}
+
+.block_two {
+    width: 48.6%;
+    height: 427.77px;
+    background-image: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url(img/app.png);
+}
+
+.block_three {
+    width: 48.6%;
+    height: 427.77px;
+    background-image: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url(img/car.png);
+}
+
+.block_two p,
+.block_three p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 38.32px;
+    margin-top: 32.83px;
+}
+
+footer {
+    background: #316099;
+    padding-bottom: 38px;
+}
+
+.footer_talk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 113px;
+    margin-right: 114.37px;
+    padding-top: 91px;
+}
+
+.footer_offer {
+    max-width: 494.77px;
+}
+
+.footer_h {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 340.96px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer_btn {
+    width: 236.63px;
+    height: 56px;
+    background: #5A98D0;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.contacts {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-right: 114.37px;
+
+}
+
+.contacts_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 113px;
+    opacity: 0.4;
+    margin-top: 64px;
+}
+
+.line {
+    opacity: 0.4;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 64px;
+    margin-top: 96px;
+}
+
+@media (min-width: 1240px) and (max-width: 1366px) {
+    .card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .container_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts li {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 910px) {
+    .nav {
+        max-width: 701.44px;
+    }
+
+    .main_screen {
+        max-width: 701.44px;
+        display: block;
+    }
+
+    .main_screen_illustration img {
+        width: 393.65px;
+        height: 333.18px;
+    }
+
+    .main_screen_illustration {
+
+        width: 393.65px;
+        height: 333.18px;
+        position: absolute;
+        z-index: 2;
+        right: 10px;
+        top: 347.27px;
+    }
+
+    .offer_h1 {
+        width: 504px;
+    }
+
+    .offer {
+        margin-top: 120px;
+        margin-bottom: 0;
+        padding-bottom: 190px;
+        z-index: 1;
+    }
+
+    .container {
+        max-width: 704px;
+
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .footer_btn {
+        width: 133.04px;
+        height: 31.48px;
+    }
+
+    .footer_offer {
+        max-width: 336px;
+    }
+}
+
+@media (max-width: 674px) {
+    .main_screen_illustration {
+        display: none;
+    }
+
+    .offer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_talk {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_h {
+        text-align: center;
+    }
+
+    .footer_btn {
+        margin-top: 40px;
+    }
+
+    .contacts_text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container_block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block_one {
+        height: 145px;
+        width: 90%;
+        margin-bottom: 17px;
+    }
+
+    .block_one p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 16px;
+        padding-right: 16px;
+    }
+
+    .block_two,
+    .block_three {
+        height: 255px;
+        width: 90%;
+        margin-bottom: 17px;
+    }
+
+    .block_two p,
+    .block_three p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .offer_h1 {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 38px;
+        width: 343px;
+    }
+
+    .offer_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 343px;
+    }
+
+    .card {
+        width: 334.97px;
+    }
+
+    .card_content {
+        max-width: 264px;
+        margin-top: 52.96px;
+        min-height: 226.77px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer_talk {
+        max-width: 343px;
+        margin: 0 16px;
+    }
+
+    .contacts {
+        max-width: 343px;
+        margin: 0 46px;
+    }
+
+    .footer_h {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
